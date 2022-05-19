@@ -6,3 +6,4 @@ export default  {
 }
 
 export const Primary = (props) => <Button {...props}>Click me</Button>
+

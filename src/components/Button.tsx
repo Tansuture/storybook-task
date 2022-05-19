@@ -1,11 +1,11 @@
 import React, { ComponentProps, FC } from 'react'
-import { Button as MUIButton, styled } from '@mui/material'
+import { Button , styled } from '@mui/material'
 
-const MUIButtonStyled = styled(MUIButton)`
-    
+const MUIButtonStyled = styled(Button)`
+
 `
 
-export const Button: FC<ComponentProps<typeof MUIButton>> = (props) => {
+export const Button1: FC<ComponentProps<typeof Button>> = (props) => {
     return (
         <MUIButtonStyled {...props} />
     )
